@@ -1,0 +1,7 @@
+#!/bin/bash
+
+CODE_HOME="$HOME/code"
+CODE_BIN="$CODE_HOME/bin"
+CODE_SRC="$CODE_HOME/src"
+CODE_DUMP="$HOME/.local/codepaths"
+

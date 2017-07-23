@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# makes a codepath
+#
+. $HOME/.config/coder
+
+if [ -d "$CODE_DUMP/$1" ]; then
+    echo "codepath with name $1 already exists." >&2
+    exit 1
+fi
+
+mkdir $CODE_DUMP/$1
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# sets the active project at home
+#
+. $HOME/.config/coder
+
+if [ ! -d "$CODE_DUMP/$1" ]; then
+    echo "unable to find codepath with name $1" >&2
+    exit 1
+fi
+
+ln -s $CODE_DUMP/$1 $CODE_HOME
+

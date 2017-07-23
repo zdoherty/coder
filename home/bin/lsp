@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# list projects
+#
+. $HOME/.config/coder
+
+ls -1 $CODE_DUMP
+
